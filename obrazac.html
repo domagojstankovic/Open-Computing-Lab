@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="description" content="Sve informacije o praksama u Americi vezano za IT struku">
+<meta name="keywords" content="Internship,USA,SAD,America,Amerika,Praksa,IT,ICT">
+<meta name="author" content="Domagoj Stanković">
+<meta name="language" content="Croatian">
+<link rel="stylesheet" type="text/css" href="dizajn.css">
+<link rel="shortcut icon" href="af.ico.png" >
+<title>Internship u Americi</title>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+	<a href="index.html">
+	<img src="Eagle-round.png" alt="American Eagle">
+	</a>
+	<h1>Internship u Americi</h1>
+	</div>
+	
+	<div class="wrapper">
+	<div class="menu_details">
+	<ul>
+		<li><a href="index.html">Početna</a></li>
+		<li><a href="obrazac.html"><b>Pretraživanje</b></a></li>
+		<li><a href="podaci.xml">Podaci</a></li>
+		<li><a href="http://www.fer.unizg.hr/predmet/or">Otvoreno računarstvo</a></li>
+		<li><a href="http://www.fer.unizg.hr/" onclick="this.target='_blank'">FER</a></li>
+		<li><a href="mailto:domagoj.stankovic@fer.hr">Kontakt</a></li>
+	</ul>
+	</div>
+	
+	<div class="content">
+	<h2>Pretraživanje tvrtki</h2>
+	<br>
+	<form name="trazilica" action="pretraga.php" method="get">
+	<table id="search">
+	
+	<tr><td>Naziv:</td><td><input type="text" name="naziv"></td></tr>
+	
+	<tr><td>Web:</td><td><input type="text" name="web"></td></tr>
+	
+	<tr class="group"><td><b>Adresa:</b></td><td></td></tr>
+	<tr><td>Država:</td>
+	<td><select name="drzava[]" multiple>
+	<option value="al">AL, Alabama</option>
+	<option value="ak">AK, Alaska</option>
+	<option value="az">AZ, Arizona</option>
+	<option value="ar">AR, Arkansas</option>
+	<option value="ca">CA, California</option>
+	<option value="co">CO, Colorado</option>
+	<option value="ct">CT, Connecticut</option>
+	<option value="de">DE, Delaware</option>
+	<option value="fl">FL, Florida</option>
+	<option value="ga">GA, Georgia</option>
+	<option value="hi">HI, Hawaii</option>
+	<option value="id">ID, Idaho</option>
+	<option value="il">IL, Illinois</option>
+	<option value="in">IN, Indiana</option>
+	<option value="ia">IA, Iowa</option>
+	<option value="ks">KS, Kansas</option>
+	<option value="ky">KY, Kentucky</option>
+	<option value="la">LA, Louisiana</option>
+	<option value="me">ME, Maine</option>
+	<option value="md">MD, Maryland</option>
+	<option value="ma">MA, Massachusetts</option>
+	<option value="mi">MI, Michigan</option>
+	<option value="mn">MN, Minnesota</option>
+	<option value="ms">MS, Mississippi</option>
+	<option value="mo">MO, Missouri</option>
+	<option value="mt">MT, Montana</option>
+	<option value="ne">NE, Nebraska</option>
+	<option value="nv">NV, Nevada</option>
+	<option value="nh">NH, New Hampshire</option>
+	<option value="nj">NJ, New Jersey</option>
+	<option value="nm">NM, New Mexico</option>
+	<option value="ny">NY, New York</option>
+	<option value="nc">NC, North Carolina</option>
+	<option value="nd">ND, North Dakota</option>
+	<option value="oh">OH, Ohio</option>
+	<option value="ok">OK, Oklahoma</option>
+	<option value="or">OR, Oregon</option>
+	<option value="pa">PA, Pennsylvania</option>
+	<option value="ri">RI, Rhode Island</option>
+	<option value="sc">SC, South Carolina</option>
+	<option value="sd">SD, South Dakota</option>
+	<option value="tn">TN, Tennessee</option>
+	<option value="tx">TX, Texas</option>
+	<option value="ut">UT, Utah</option>
+	<option value="vt">VT, Vermont</option>
+	<option value="va">VA, Virginia</option>
+	<option value="wa">WA, Washington</option>
+	<option value="wv">WV, West Virginia</option>
+	<option value="wi">WI, Wisconsin</option>
+	<option value="wy">WY, Wyoming</option>
+	</select></td></tr>
+	
+	<tr><td>Mjesto:</td><td><input type="text" name="mjesto"></td></tr>
+	
+	<tr><td>Poštanski broj:</td><td><input type="text" name="pbr"></td></tr>
+	
+	<tr><td>Ulica:</td><td><input type="text" name="ulica"></td></tr>
+	
+	<tr><td>Kućni broj:</td><td><input type="text" name="kbr"></td></tr>
+	
+	<tr class="group"><td><b>Posao:</b></td><td></td></tr>
+	<tr><td>Kategorija:</td>
+	<td><select multiple name="kategorija[]">
+	<option value="Front_End">Front End</option>
+	<option value="Back_End">Back End</option>
+	<option value="Android">Android</option>
+	<option value="iOS">iOS</option>
+	<option value="Windows_Phone">Windows Phone</option>
+	<option value="Sigurnost">Sigurnost</option>
+	<option value="Dizajn">Dizajn</option>
+	<option value="Hardware">Hardware</option>
+	<option value="Data_Mining">Data Mining</option>
+	<option value="Ostalo">Ostalo</option>
+	</select></td></tr>
+	
+	<tr><td>Plaćeno:</td>
+	<td><input type="radio" name="placeno" value="da">Da<br>
+	<input type="radio" name="placeno" value="ne">Ne</td></tr>
+	
+	<tr><td>Trajanje:</td>
+	<td><input type="text" name="trajanje">
+	<select name="kvant">
+	<option value="dan">Dana</option>
+	<option value="tjedan">Tjedana</option>
+	<option value="mjesec" selected>Mjeseci</option>
+	<option value="godina">Godina</option>
+	</select></td></tr>
+	
+	<tr><td>Razina obrazovanja:</td>
+	<td><input type="checkbox" name="titula[]" value="Prvostupnik">Prvostupnik<br>
+	<input type="checkbox" name="titula[]" value="Magistar">Magistar<br>
+	<input type="checkbox" name="titula[]" value="Doktor_znanosti">Doktor znanosti<br>
+	<input type="checkbox" name="titula[]" value="Specijalist">Specijalist<br>
+	<input type="checkbox" name="titula[]" value="Ostalo">Ostalo</td></tr>
+	
+	</table>
+	<p>
+	
+	<!--<button class="btn" type="submit" value="Submit"><img src="search.png" alt="Traži" height="40px"></button>
+	<button class="btn" type="reset" value="Reset"><img src="reset.png" alt="Reset" height="40px"></button>
+	-->
+	
+	<input class="btn" type="submit" value="Submit" />
+	<input class="btn" type="reset" value="Reset">
+	
+	</p>
+	</form>
+	</div>
+	</div>
+	
+	<div class="footer">
+	<p>Autor: Domagoj Stanković</p><br>
+	<p>Fakultet elektrotehnike i računarstva, Zagreb</p>
+	</div>
+</div>
+</body>
+</html>

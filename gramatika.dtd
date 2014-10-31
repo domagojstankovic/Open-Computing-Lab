@@ -1,0 +1,21 @@
+<!ELEMENT podaci (tvrtka*)>
+<!ELEMENT tvrtka (fb_id, naziv, web, adresa, opis?, posao*)>
+<!ELEMENT adresa (drzava, mjesto, ulica?, kbr?)>
+<!ELEMENT posao (placeno?, trajanje, obrazovanje+)>
+<!ELEMENT obrazovanje EMPTY>
+<!ATTLIST obrazovanje titula (Prvostupnik|Magistar|Specijalist|Doktor_znanosti|Ostalo) #REQUIRED>
+<!ATTLIST posao kategorija (Front_End|Back_End|Android|iOS|Windows_Phone|Sigurnost|Dizajn|Hardware|Data_Mining|Ostalo) #REQUIRED>
+<!ATTLIST tvrtka id ID #REQUIRED>
+<!ELEMENT fb_id (#PCDATA)>
+<!ELEMENT naziv (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT opis (#PCDATA)>
+<!ELEMENT drzava (#PCDATA)>
+<!ELEMENT mjesto (#PCDATA)>
+<!ATTLIST mjesto pbr CDATA #IMPLIED>
+<!ELEMENT ulica (#PCDATA)>
+<!ELEMENT kbr (#PCDATA)>
+<!ELEMENT kategorija (#PCDATA)>
+<!ELEMENT placeno EMPTY>
+<!ELEMENT trajanje (#PCDATA)>
+<!ATTLIST trajanje kvant (dan|tjedan|mjesec|godina) #REQUIRED>

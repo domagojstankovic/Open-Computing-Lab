@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE podaci SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+<podaci>
+	<tvrtka id="t1">
+		<fb_id>104958162837</fb_id>
+		<naziv>Google</naziv>
+		<web>https://www.google.com/</web>
+		<adresa>
+			<drzava>CA, California</drzava>
+			<mjesto pbr="94043">Mountain View</mjesto>
+			<ulica>Amphitheatre Parkway</ulica>
+			<kbr>1600</kbr>
+		</adresa>
+		<opis>Organizing the world's information and making it universally accessible and useful.</opis>
+		<posao kategorija="Back_End">
+			<placeno/>
+			<trajanje kvant="mjesec">3</trajanje>
+			<obrazovanje titula="Prvostupnik"/>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+		<posao kategorija="Front_End">
+			<trajanje kvant="tjedan">15</trajanje>
+			<obrazovanje titula="Prvostupnik"/>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+		<posao kategorija="Data_Mining">
+			<placeno/>
+			<trajanje kvant="mjesec">6</trajanje>
+			<obrazovanje titula="Specijalist"/>
+			<obrazovanje titula="Doktor_znanosti"/>
+		</posao>
+		<posao kategorija="iOS">
+			<placeno/>
+			<trajanje kvant="mjesec">4</trajanje>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+		<posao kategorija="Sigurnost">
+			<placeno/>
+			<trajanje kvant="godina">1</trajanje>
+			<obrazovanje titula="Magistar"/>
+			<obrazovanje titula="Specijalist"/>
+			<obrazovanje titula="Doktor_znanosti"/>
+		</posao>
+	</tvrtka>
+	
+	<tvrtka id="t2">
+		<fb_id>166793820034304</fb_id>
+		<naziv>Facebook</naziv>
+		<web>https://www.facebook.com/</web>
+		<adresa>
+			<drzava>CA, California</drzava>
+			<mjesto pbr="94304">Palo Alto</mjesto>
+			<ulica>California Avenue</ulica>
+			<kbr>1601</kbr>
+		</adresa>
+		<opis>The Facebook Page celebrates how our friends inspire us, support us, and help us discover the world when we connect.</opis>
+		<posao kategorija="Android">
+			<trajanje kvant="mjesec">4</trajanje>
+			<obrazovanje titula="Prvostupnik"/>
+		</posao>
+		<posao kategorija="Sigurnost">
+			<placeno/>
+			<trajanje kvant="godina">2</trajanje>
+			<obrazovanje titula="Doktor_znanosti"/>
+		</posao>
+		<posao kategorija="Hardware">
+			<placeno/>
+			<trajanje kvant="tjedan">16</trajanje>
+			<obrazovanje titula="Magistar"/>
+			<obrazovanje titula="Specijalist"/>
+		</posao>
+	</tvrtka>
+	
+	<tvrtka id="t3">
+		<fb_id>20528438720</fb_id>
+		<naziv>Microsoft</naziv>
+		<web>http://www.microsoft.com/</web>
+		<adresa>
+			<drzava>WA, Washington</drzava>
+			<mjesto>Redmond</mjesto>
+		</adresa>
+		<opis> Founded in 1975, Microsoft is the worldwide leader in devices and services that help people and businesses realize their full potential.</opis>
+		<posao kategorija="Windows_Phone">
+			<placeno/>
+			<trajanje kvant="mjesec">3</trajanje>
+			<obrazovanje titula="Prvostupnik"/>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+		<posao kategorija="Dizajn">
+			<trajanje kvant="dan">120</trajanje>
+			<obrazovanje titula="Prvostupnik"/>
+		</posao>
+		<posao kategorija="Hardware">
+			<placeno/>
+			<trajanje kvant="mjesec">6</trajanje>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+	</tvrtka>
+	
+	<tvrtka id="t4">
+		<fb_id>168597536563870</fb_id>
+		<naziv>IBM</naziv>
+		<web>http://www.ibm.com/us/en/</web>
+		<adresa>
+			<drzava>NY, New York</drzava>
+			<mjesto>Armonk</mjesto>
+		</adresa>
+		<opis>Dedication to every client's success. Innovation that matters - for our company and for the world. Trust and personal responsibility in all relationships.</opis>
+		<posao kategorija="Back_End">
+			<placeno/>
+			<trajanje kvant="mjesec">6</trajanje>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+		<posao kategorija="Sigurnost">
+			<placeno/>
+			<trajanje kvant="godina">1</trajanje>
+			<obrazovanje titula="Specijalist"/>
+			<obrazovanje titula="Doktor_znanosti"/>
+		</posao>
+		<posao kategorija="Data_Mining">
+			<placeno/>
+			<trajanje kvant="godina">1</trajanje>
+			<obrazovanje titula="Doktor_znanosti"/>
+		</posao>
+	</tvrtka>
+	
+	<tvrtka id="t5">
+		<fb_id>278029242253904</fb_id>
+		<naziv>Twitter</naziv>
+		<web>https://twitter.com/</web>
+		<adresa>
+			<drzava>CA, California</drzava>
+			<mjesto>San Francisco</mjesto>
+		</adresa>
+		<opis>Twitter brings you closer to what you care about.</opis>
+		<posao kategorija="Dizajn">
+			<placeno/>
+			<trajanje kvant="mjesec">3</trajanje>
+			<obrazovanje titula="Prvostupnik"/>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+		<posao kategorija="Ostalo">
+			<trajanje kvant="dan">60</trajanje>
+			<obrazovanje titula="Ostalo"/>
+		</posao>
+	</tvrtka>
+	
+	<tvrtka id="t6">
+		<fb_id>137947732957611</fb_id>
+		<naziv>Apple</naziv>
+		<web>https://www.apple.com/</web>
+		<adresa>
+			<drzava>CA, California</drzava>
+			<mjesto pbr="95014">Cupertino</mjesto>
+			<ulica>Infinite Loop</ulica>
+			<kbr>1</kbr>
+		</adresa>
+		<opis>A job at Apple is unlike any other you've had. You'll be challenged. You'll be inspired. And you'll be proud.</opis>
+		<posao kategorija="iOS">
+			<trajanje kvant="mjesec">3</trajanje>
+			<obrazovanje titula="Prvostupnik"/>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+		<posao kategorija="Sigurnost">
+			<placeno/>
+			<trajanje kvant="godina">2</trajanje>
+			<obrazovanje titula="Magistar"/>
+			<obrazovanje titula="Specijalist"/>
+			<obrazovanje titula="Doktor_znanosti"/>
+		</posao>
+		<posao kategorija="Hardware">
+			<placeno/>
+			<trajanje kvant="mjesec">6</trajanje>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+	</tvrtka>
+	
+	<tvrtka id="t7">
+		<fb_id>371828349505735</fb_id>
+		<naziv>Dropbox</naziv>
+		<web>https://www.dropbox.com/</web>
+		<adresa>
+			<drzava>CA, California</drzava>
+			<mjesto pbr="94107">San Francisco</mjesto>
+		</adresa>
+		<opis>Dropbox is a free service that lets you bring your photos, docs, and videos anywhere and share them easily. Never email yourself a file again!</opis>
+		<posao kategorija="Back_End">
+			<placeno/>
+			<trajanje kvant="tjedan">20</trajanje>
+			<obrazovanje titula="Magistar"/>
+		</posao>
+		<posao kategorija="Ostalo">
+			<trajanje kvant="dan">90</trajanje>
+			<obrazovanje titula="Ostalo"/>
+		</posao>
+	</tvrtka>
+</podaci>
